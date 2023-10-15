@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "routes": [
+    {
+      "src": "^/(.*)$",
+      "dest": "/",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE",
+        "OPTIONS"
+      ]
+    }
+  ],
+  "crons": [],
+  "flags": []
+}
